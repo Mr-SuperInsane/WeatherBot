@@ -16,8 +16,8 @@ from app import app
 from crud import check_person, add_person, check_region, upgrade_region
 from function import get_weather
 
-line_bot_api = LineBotApi('KfnKU7XCuJfM16hCFerNyxLxeNZ2euAged/MG8PYmt6pfaTAi/r90+aUEDxGAa649NvVdbrLN+u8hsBw7hzvWDXFaUep2yqRZ3x1WMeJjjf/HcYhPqnC3SJqN8QwwyRoB5j0W6k9J3aTwZbRgia4XgdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('97f246036a53aa0f878d19c5bc86ab3b')
+line_bot_api = LineBotApi('チャンネルアクセストークン')
+handler = WebhookHandler('チャンネルシークレット')
 
 region_list = ['大阪','能勢','豊中','枚方','東大阪','堺','岸和田','河内長野','阪南','城崎','豊岡','丹波','朝来','姫路','神戸','明石','宝塚','尼崎','北淡','南淡','京都','宮津','舞鶴','福知山','和知','亀岡','宇治','八幡','城陽','余呉','長浜','高島','彦根','米原','堅田','近江八幡','大津','甲賀','奈良','大和高田','橿原','桜井','五條','吉野','大台ヶ原山','十津川','和歌山','橋本','有田','御坊','田辺','中辺路','白浜','串本','新宮','四日市','鈴鹿','伊賀','津','名張','伊勢','鳥羽','志摩','尾鳶','熊野']
 
