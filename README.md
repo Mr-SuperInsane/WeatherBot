@@ -4,7 +4,15 @@
   
 views.pyにチャンネルアクセストークンとチャンネルシークレットを入力した後ファイルを実行してください。またリッチメニューはLINE Official Account Managerで設定してください。画像ファイルも添付してます。  
 
-# Developer
+#Env
+Python3.9.9  
+  
+下記のコマンドで必要なモジュールを一括インストールできます。
+'''
+pip install -r requirements.txt
+'''
+
+# Develop
 
 Nao_kun  
 [Twitterを見る](https://twitter.com/nao_consulting)
