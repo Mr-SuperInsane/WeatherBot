@@ -12,7 +12,7 @@ Python3.9.9
 pip install -r requirements.txt
 ```
 
-# Develop
+# Developer
 
 Nao_kun  
 [Twitterを見る](https://twitter.com/nao_consulting)
