@@ -6,5 +6,5 @@ views.pyにチャンネルアクセストークンとチャンネルシークレ
 
 # Developer
 
-Nao_kun
-[Twitterはこちら](https://twitter.com/nao_consulting)
+Nao_kun  
+[Twitterを見る](https://twitter.com/nao_consulting)
