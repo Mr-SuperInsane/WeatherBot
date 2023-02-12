@@ -1,0 +1,6 @@
+line-bot-sdk==1.20.0
+schedule==1.1.0
+Flask==2.0.2
+Flask-Migrate==3.1.0
+Flask-SQLAlchemy==2.5.1
+bs4==0.0.1
