@@ -19,8 +19,12 @@ from function import get_weather
 line_bot_api = LineBotApi('チャンネルアクセストークン')
 handler = WebhookHandler('チャンネルシークレット')
 
-region_list = ['大阪','能勢','豊中','枚方','東大阪','堺','岸和田','河内長野','阪南','城崎','豊岡','丹波','朝来','姫路','神戸','明石','宝塚','尼崎','北淡','南淡','京都','宮津','舞鶴','福知山','和知','亀岡','宇治','八幡','城陽','余呉','長浜','高島','彦根','米原','堅田','近江八幡','大津','甲賀','奈良','大和高田','橿原','桜井','五條','吉野','大台ヶ原山','十津川','和歌山','橋本','有田','御坊','田辺','中辺路','白浜','串本','新宮','四日市','鈴鹿','伊賀','津','名張','伊勢','鳥羽','志摩','尾鳶','熊野']
-
+region_list = []
+with open('region_url.json', 'r', encoding='utf-8')as file:
+    region_url_dict = json.load(file)
+for key in region_url_dict:
+    region_list.append(key)
+    
 @app.route("/callback", methods=['POST'])
 def callback():
     # get X-Line-Signature header value
