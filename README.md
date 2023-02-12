@@ -8,7 +8,9 @@ views.pyにチャンネルアクセストークンとチャンネルシークレ
 Python3.9.9  
   
 下記のコマンドで必要なモジュールを一括インストールできます。  
+```
 pip install -r requirements.txt
+```
 
 # Develop
 
